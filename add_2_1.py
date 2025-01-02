@@ -68,7 +68,7 @@ def buy_another_product(basket, products, current_category=None):
                     print("")
                     print(f"{units} units of {product['name']} added successfully at {product['price']:.2f}€ per unit to the basket.")
                 else:
-                    print("No current category selected. Please select option 2 to choose a new category.")
+                    print("No current category selected. Please select option 2 to choose a new category or option 3 to return to the main menu.")
                 continue
            
             elif option == 2:
@@ -82,8 +82,8 @@ def buy_another_product(basket, products, current_category=None):
                 break
             else:
                 print("")
-                print("Invalid Input, please enter (yes/no).")
+                print("Invalid Input, please enter a number between (1-3).")
         except ValueError:
-            print("Invalid input, please enter a number betwween 1-3")
+            print("Invalid input, please enter a number betwween (1-3)")
             print("")
    

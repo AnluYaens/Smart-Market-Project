@@ -10,9 +10,9 @@
         ], 
         
         "Meat": [
-            {"name": "Chicken (breast)", "price": 6.0}, 
-            {"name": "Beef (steak)", "price": 12.0}, 
-            {"name": "Pork (chop)", "price": 8.0}, 
+            {"name": "Chicken", "price": 6.0}, 
+            {"name": "Beef", "price": 12.0}, 
+            {"name": "Pork", "price": 8.0}, 
             {"name": "Ground meat", "price": 7.0}
         ], 
         
@@ -30,38 +30,38 @@
         ], 
         
         "Beverages": [
-            {"name": "Water (1.5L)", "price": 0.5}, 
-            {"name": "Soda (330ml can)", "price": 1.0}, 
-            {"name": "Beer (330ml bottle)", "price": 1.2}, 
-            {"name": "Orange juice (1L)", "price": 2.0}
+            {"name": "Water", "price": 0.5}, 
+            {"name": "Soda", "price": 1.0}, 
+            {"name": "Beer", "price": 1.2}, 
+            {"name": "Orange juice", "price": 2.0}
         ], 
         
         "Groceries": [
-            {"name": "Rice (1kg)", "price": 1.5}, 
-            {"name": "Pasta (500g)", "price": 1.0}, 
-            {"name": "Flour (1kg)", "price": 1.2}, 
-            {"name": "Olive oil (1L)", "price": 5.0}, 
-            {"name": "Sugar (1kg)", "price": 1.0}, 
-            {"name": "Salt (1kg)", "price": 0.8}
+            {"name": "Rice", "price": 1.5}, 
+            {"name": "Pasta", "price": 1.0}, 
+            {"name": "Flour", "price": 1.2}, 
+            {"name": "Olive oil", "price": 5.0}, 
+            {"name": "Sugar", "price": 1.0}, 
+            {"name": "Salt", "price": 0.8}
         ], 
         
         "Snacks": [
-            {"name": "Potato chips (bag)", "price": 1.5}, 
-            {"name": "Cookies (pack)", "price": 1.2}, 
-            {"name": "Chocolate (bar)", "price": 1.5}
+            {"name": "Potato chips", "price": 1.5}, 
+            {"name": "Cookies", "price": 1.2}, 
+            {"name": "Chocolate", "price": 1.5}
         ],
         
         "Cleaning Products": [
-            {"name": "Detergent (1L)", "price": 4.0}, 
-            {"name": "Fabric softener (1L)", "price": 3.5}, 
-            {"name": "Multi-purpose cleaner (500ml)", "price": 2.5}, 
-            {"name": "Sponges (pack of 3)", "price": 1.5}
+            {"name": "Detergent", "price": 4.0}, 
+            {"name": "Fabric softener", "price": 3.5}, 
+            {"name": "Multi-purpose cleaner", "price": 2.5}, 
+            {"name": "Sponges", "price": 1.5}
         ], 
         
         "Personal Hygiene": [
-            {"name": "Liquid soap (500ml)", "price": 2.0}, 
-            {"name": "Shampoo (500ml)", "price": 3.5}, 
-            {"name": "Toilet paper (pack of 12)", "price": 4.5}, 
+            {"name": "Liquid soap", "price": 2.0}, 
+            {"name": "Shampoo", "price": 3.5}, 
+            {"name": "Toilet paper", "price": 4.5}, 
             {"name": "Toothbrush", "price": 2.5}
         ]
     }
