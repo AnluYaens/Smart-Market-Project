@@ -1,0 +1,67 @@
+{
+    "Fruits and Vegetables": [
+        {"name": "Apple", "price": 1.8}, 
+        {"name": "Banana", "price": 1.6}, 
+        {"name": "Orange", "price": 1.7}, 
+        {"name": "Potato", "price": 1.4}, 
+        {"name": "Tomato", "price": 1.9}, 
+        {"name": "Onion", "price": 1.3},
+        {"name": "Carrot", "price": 1.5}
+        ], 
+        
+        "Meat": [
+            {"name": "Chicken", "price": 9.5}, 
+            {"name": "Beef", "price": 12}, 
+            {"name": "Pork", "price": 9}, 
+            {"name": "Ground meat", "price": 8}
+        ], 
+        
+        "Dairys": [
+            {"name": "Milk", "price": 1.7}, 
+            {"name": "Cheese", "price": 5}, 
+            {"name": "Yogurt", "price": 1}, 
+            {"name": "Butter", "price": 3}
+        ], 
+        
+        "Bakery": [
+            {"name": "Baguette", "price": 1.3}, 
+            {"name": "Sliced bread", "price": 2}, 
+            {"name": "Croissant", "price": 1}
+        ], 
+        
+        "Beverages": [
+            {"name": "Water", "price": 0.5}, 
+            {"name": "Soda", "price": 1.0}, 
+            {"name": "Beer", "price": 1.2}, 
+            {"name": "Orange juice", "price": 2.0}
+        ], 
+        
+        "Groceries": [
+            {"name": "Rice", "price": 1.5}, 
+            {"name": "Pasta", "price": 1.0}, 
+            {"name": "Flour", "price": 1.2}, 
+            {"name": "Olive oil", "price": 5.0}, 
+            {"name": "Sugar", "price": 1.0}, 
+            {"name": "Salt", "price": 0.8}
+        ], 
+        
+        "Snacks": [
+            {"name": "Potato chips", "price": 1.5}, 
+            {"name": "Cookies", "price": 1.2}, 
+            {"name": "Chocolate", "price": 1.5}
+        ],
+        
+        "Cleaning Products": [
+            {"name": "Detergent", "price": 4.0}, 
+            {"name": "Fabric softener", "price": 3.5}, 
+            {"name": "Multi-purpose cleaner", "price": 2.5}, 
+            {"name": "Sponges", "price": 1.5}
+        ], 
+        
+        "Personal Hygiene": [
+            {"name": "Liquid soap", "price": 2.0}, 
+            {"name": "Shampoo", "price": 3.5}, 
+            {"name": "Toilet paper", "price": 4.5}, 
+            {"name": "Toothbrush", "price": 2.5}
+        ]
+    }
