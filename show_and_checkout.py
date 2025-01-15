@@ -33,7 +33,7 @@ def show_your_basket(basket):
 def proceed_to_check_out(): 
 
     st.write("Select your payment method to proceed: ")
-    payment_method = st.selectbox(["Payment Method:", ["Debit/Credit Card", "Paypal"]])
+    payment_method = st.selectbox("Payment Method:", ["Debit/Credit Card", "Paypal"])
     st.success(f"You chose {payment_method}. Thanl you for shopping!")
 
 

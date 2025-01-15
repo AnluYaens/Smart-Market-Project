@@ -19,7 +19,11 @@ def save_basket(basket):
 def main():
     st.title("Welcome to your Store!")
  
-    products = read_products
+    products = read_products()
+    if not products:
+        st.warning("No products found. Please check the json file.")
+        return
+    
     basket = {}
     
     menu = ["Show products", "Add products", "Delete products", "Show basket", "Proceed to checkout"]
