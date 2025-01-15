@@ -1,14 +1,10 @@
 import streamlit as st
+from get_and_checks import get_and_check_category_key
 
 def show_products(products):
-    categories = list(products.keys())
-    category_key = st.selectbox("Choose a category:", [""] + categories)
-    
-    if category_key:
-        st.write(f"Products from {category_key}:")
-        for product in products[category_key]:
-            st.write(f"{product["name"]} - {product["price"]:.2f}€ per unit")
-    return category_key            
+    st.subheader("Categories of products")
+    get_and_check_category_key(products)
+             
 
 
 def show_your_basket(basket): 
@@ -31,9 +27,8 @@ def show_your_basket(basket):
 
 
 def proceed_to_check_out(): 
-
-    st.write("Select your payment method to proceed: ")
     payment_method = st.selectbox("Payment Method:", ["Debit/Credit Card", "Paypal"])
-    st.success(f"You chose {payment_method}. Thanl you for shopping!")
-
+    if st.button("Proceed with the payment"):
+        st.success(f"You chose {payment_method}. Thank you for shopping!")
+        st.success("Hope to see you soon!")
 
