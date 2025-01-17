@@ -3,13 +3,15 @@ import streamlit as st
 
 def delete_products(basket): 
     if not basket:
-        st.warning("Your basket is empty. Try adding some products!")
+        st.warning("Your basket is empty. Try adding some products! :shopping_trolley:")
+        st.info("If you want to go back to the lobby use the (:house:) button on the sidebar!.	:top:	:rewind:")
         return
     
     st.write("Your basket")
     user_input = st.selectbox("Select the product you want to delete: ", [""] + list(basket.keys()))
     if not user_input:
-        st.warning("No product selected.")
+        st.warning("Please select the item you want to delete. :smile:")
+        st.info("If you want to go back to the lobby use the (:house:) button on the sidebar!.	:top:	:rewind:")
         return
     
     max_units = basket[user_input]["units"]
@@ -44,4 +46,4 @@ def delete_products(basket):
         st.write(
             "The basket is empty"
         )
-
+    st.info("If you want to go back to the lobby use the (:house:) button on the sidebar!.	:top:	:rewind:")

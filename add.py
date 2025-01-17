@@ -5,13 +5,15 @@ def add_products(basket, products):
     
     category_key = st.selectbox("Select a category: ", [""] + list(products.keys()))
     if not category_key:
-        st.warning("No category selected. Returning to main menu!")
+        st.warning("Please select a category. :smile:")
+        st.info("If you want to go back to the lobby use the (:house:) button on the sidebar!.	:top:	:rewind:")
         return
 
     product_list = [product["name"] for product in products[category_key]]
     user_input = st.selectbox(f"Select a product from {category_key}", [""] + product_list)
     if not user_input:
-        st.warning("Invalid product selected. Please try again.")
+        st.warning("Please select a product. :100:")
+        st.info("If you want to go back to the lobby use the (:house:) button on the sidebar!.	:top:	:rewind:")
         return
     
     product = next((prod for prod in products[category_key] if prod["name"] == user_input), None)
@@ -39,13 +41,15 @@ def add_products(basket, products):
         st.success(f"{units} units of {user_input} added successfully at {product["price"]:.2f}€ per unit to the basket.")
     
     
+    
 
 
     st.write("Your basket have been updated")
+    
     for item, details in basket.items():
         st.write(
             f"{item}: {details["units"]} units, {details["price"]:.2f}€ per unit"
         )
-    
+    st.info("If you want to go back to the lobby use the (:house:) button on the sidebar!.	:top:	:rewind:")
     
    

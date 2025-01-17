@@ -14,12 +14,13 @@ def get_and_check_products(category, products):
     return None
 
 
-def get_and_check_category_key(products):
+def get_and_check_category_key(products): 
     categories = list(products.keys())
     
     category_key = st.selectbox(
         "Select a category:", [""] + categories
     )
+    
     if category_key:
         st.write(
             f"Products from {category_key}"
@@ -28,6 +29,7 @@ def get_and_check_category_key(products):
             st.write(
                 f"{product["name"]} - {product["price"]:.2f}€ per unit"
             )
+    
     return category_key
             
             
