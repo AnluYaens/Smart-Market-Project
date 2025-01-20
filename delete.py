@@ -8,6 +8,9 @@ def delete_products(basket):
         return
     
     st.write("Your basket")
+    for name, details in basket.items():
+        product_total_price = details["price"] * details["units"]
+        st.write(f"{name}: {details["price"]:.2f}€ per unit, total units: {details["units"]}, product total price: {product_total_price:.2f}€") 
     user_input = st.selectbox("Select the product you want to delete: ", [""] + list(basket.keys()))
     if not user_input:
         st.warning("Please select the item you want to delete. :smile:")

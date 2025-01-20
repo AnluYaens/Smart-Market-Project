@@ -1,0 +1,10 @@
+{
+    "Apple": {
+        "price": 1.8,
+        "units": 2
+    },
+    "Tomato": {
+        "price": 1.9,
+        "units": 6
+    }
+}

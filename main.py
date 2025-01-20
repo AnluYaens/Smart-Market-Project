@@ -85,7 +85,6 @@ def main():
             st.write("Welcome to Smart Market! My name is Angel Jaen and I am excited to share this project with you. As a freshman Software Engineering major, this is my very first step into the world of technology and innovation.")
             st.write("Smart Market is more than just a project - it is a reflection of my passion, curiosity, and dedication to learning and creating. I have carefully designed every feature and written every line of code with the goal of providing you with a seamless and enjoyable experience.")
             st.write("I sincerely hope that you find this project useful and inspiring. If you enjoy using Smart Market, I would be incredibly grateful if you would explore my other projects and share them with your friends and family. Your support and feedback means the world to me and plays a crucial role in helping me grow as a developer.")
-            st.write("Thank you for being part of my journey. Your encouragement inspires me to keep learning, improving, and creating. Together we can bring more innovative ideas to life!.")
             st.write("Here is my GitHub link: https://github.com/AnluYaens?tab=repositories :eyes:")
             st.write("Hope you enjoy your shopping experience with us!:sparkles:")
             

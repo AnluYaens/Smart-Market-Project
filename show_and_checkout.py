@@ -29,9 +29,9 @@ def show_your_basket(basket):
 
     iva = total * 0.21
     total_with_iva = total + iva
-    st.write(f"Total (Withous Tax): {total:.2f}€")
+    st.write(f"Total (Without IVA): {total:.2f}€")
     st.write(f"IVA (21%): {iva:.2f}€")
-    st.write(f"Total (With Tax): {total_with_iva:.2f}€")
+    st.write(f"Total (With IVA): {total_with_iva:.2f}€")
     
     if st.button("Proceed to checkout", key="proceed_to_checkout_btn", use_container_width=True):
         st.session_state.current_page = "Proceed to checkout"
