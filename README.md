@@ -28,17 +28,17 @@
 ## Project Structure
 
 ```
-.
-├── main.py                  # Main entry point of the application
-├── json_files/              # Folder containing JSON data files
-│   ├── products.json        # JSON file containing product data
-│   ├── basket.json          # JSON file for tracking the basket
+SMART_MARKET_PROJECT
 ├── images/                  # Folder containing images for the UI
 │   ├── add_products.png
+│   ├── checkout.png
 │   ├── delete_products.png
 │   ├── show_basket.png
-│   ├── checkout.png
-│   └── show_products.png
+│   ├── show_products.png
+│   └── smart_market_png.webp
+├── json_files/              # Folder containing JSON data files
+│   ├── basket.json          # JSON file for tracking the basket
+│   └── products.json        # JSON file containing product data
 ├── smart_market/            # Application's core package
 │   ├── __init__.py          # Empty init file for the package
 │   ├── add.py               # Handles adding products to the basket
@@ -46,6 +46,8 @@
 │   ├── get_and_checks.py    # Utility functions for category/product validation
 │   ├── lobby.py             # Renders the lobby/home page
 │   └── show_and_checkout.py # Manages product display, basket view, and checkout
+├── main.py                  # Main entry point of the application
+└── README.md                # Project's documentation file
 
 ```
 
