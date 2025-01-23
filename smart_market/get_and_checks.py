@@ -1,34 +1,49 @@
+"""
+Provides utility functions for selecting and validating product categories and individual products.
+
+"""
 import streamlit as st
 
-# Function to select and validate a product from a given category
+
 def get_and_check_products(category, products): 
-    # Create a list of products in the selected category
+    """
+    Retrieves and validates the product selected by the user from a given category.
+
+    Args:
+        category (str): The category of products to select from.
+        products (dict): A dictionary of product categories and their respective products.
+
+    Returns:
+        dict or None: Details of the selected product, or None if no product is selected.
+    """
     product_list = [product["name"] for product in products[category]]
-    
-    # Display a dropdown for the user to select a product
     user_input = st.selectbox(
         "Select a product:", [""] + product_list
     )   
+
     if user_input:
-        # Return the selected product details if a product is chosen
         return next(
             product for product in products[category] if product["name"] == user_input
         )
-    # Return None if no product is selected
     return None
 
-# Function to select and validate a category
+
 def get_and_check_category_key(products): 
-    # Get a list of avaliable categories
+    """
+    Retrieves and validates the category selected by the user.
+
+    Args:
+        products (dict): A dictionary of product categories.
+
+    Returns:
+        str or None: The selected category key, or None if no category is selected.
+    """
     categories = list(products.keys())
-    
-    # Display a dropdown for the user to select a category
     category_key = st.selectbox(
         "Select a category:", [""] + categories
     )
     
     if category_key:
-        # Display the products from the selected category
         st.write(
             f"Products from {category_key}"
         )
@@ -36,7 +51,6 @@ def get_and_check_category_key(products):
             st.write(
                 f"{product["name"]} - {product["price"]:.2f}€ per unit"
             )
-    # Return the selected category key
     return category_key
             
             

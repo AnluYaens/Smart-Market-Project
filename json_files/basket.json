@@ -1,6 +1,10 @@
 {
-    "Chicken": {
-        "price": 9.5,
-        "units": 6
+    "Apple": {
+        "price": 1.8,
+        "units": 2
+    },
+    "Orange": {
+        "price": 1.7,
+        "units": 4
     }
 }
