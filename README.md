@@ -1,6 +1,11 @@
-!(images/smart_market.png)
+<div align="center">
 
-# Smart Market
+# **🌟 SMART MARKET 🌟**
+
+</div>
+
+![Smart Market Banner](images/smart_market_png.webp)
+
 
 **Smart Market** is an user-friendly web application designed to bring the shopping experience right into your home! Built with Streamlit, it allows users to browse products, add items to a virtual shopping cart, and go through a smooth checkout process - all in a clean and intuitive interface.
 
