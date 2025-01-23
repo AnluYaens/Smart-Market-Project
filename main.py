@@ -111,7 +111,7 @@ def main():
     #Tab 2: Contact information
     with tab2:
             st.header("Contact us")
-            st.write("Email: your.favorite.store.at.home@gmail.com")
+            st.write("Email: ajaen.solutions@gmail.com")
             st.write("Phone: 151-.......")
             st.write(" Address: in your heart :heart:")
 
